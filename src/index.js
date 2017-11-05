@@ -1,8 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-snapshot';
 import SlidePlayer from './examples/SlidePlayer';
 
-ReactDOM.render(<SlidePlayer />, document.getElementById('root'));
+render(<SlidePlayer />, document.getElementById('root'));
 
 
 // import ImageManager from './ImageManager';
