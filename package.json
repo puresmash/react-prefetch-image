@@ -1,8 +1,9 @@
 {
   "name": "react-prefetch-image",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://puresmash.github.io/react-prefetch-image/",
+  "version": "0.1.0-alpha",
+  "author": "swat <puresmash@gmail.com>",
+  "description": "Help to manage prefetching image",
+  "main": "./index.js",
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
@@ -13,5 +14,21 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "keywords": [
+    "react",
+    "image",
+    "prefetch"
+  ],
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puresmash/react-prefetch-image.git"
+  },
+  "bugs": {
+    "url": "https://github.com/puresmash/react-prefetch-image/issues"
+  },
+  "homepage": "https://puresmash.github.io/react-prefetch-image/",
 }
